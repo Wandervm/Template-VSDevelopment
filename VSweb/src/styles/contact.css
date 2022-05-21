@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+.ps9left img{
+    position: relative;
+    width:550px;
+    top: 5px;
+    left: 40px;
+  }
+  .txtc {
+    position: absolute;
+    background-color:#f1f1f18a;
+    width: 40px;
+    border-radius:9px;
+    top: 110px;
+    
+  }
+  .txtc p{
+    font-family: 'Hina Mincho';
+    text-align: center;
+    font-size:25px;
+  }
+  .infoC{
+    position: absolute;
+    padding: 10px;
+    left: 55%;
+    bottom: 40%;
+  }
+  .infoC h2{
+      position: relative;
+      top: 100px;
+      left: 100px;
+      font-family: 'Hina Mincho';
+  }
+  #send{
+      left: 850px;
+      bottom:30px;
+  }
+
+  @media screen and (max-width: 900px){
+
+    .ps9left img{
+      position: relative;
+      width: 95%;
+      left: -1px;
+    }
+    .txtc{
+      position: absolute;
+      top: -230px;
+    }
+    .infoC{
+      position: absolute;
+      padding: 10px;
+      width: 80%;
+      left: 30px;
+      bottom: 120px;
+      height:260px;
+      
+    }
+    .infoC h2{
+      left: 40px;
+  }
+    #send{
+      position: relative;
+      left: 100px;
+      top: 30px;
+    }
+  }

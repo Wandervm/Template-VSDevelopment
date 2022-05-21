@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+.background{
+    position: absolute;
+    left: -200px;
+    bottom:-100px;
+    background-color: whitesmoke;
+    box-shadow: #333 3px 5px 15px;
+    width: 900px;
+    height: 450px;
+    border-radius: 19px;
+    font-family: 'Hina Mincho';
+    
+}
+.container button{
+    position: relative;
+    left: 45%;
+    margin: 25px;
+    background-color: transparent;
+    border:none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.left{
+    position: relative;
+    right: 35%;
+    margin: 0px;
+}
+.left img{
+    position: relative;
+    width: 300px;
+    height:451px;
+    bottom:82px;
+    left: 7px;
+    border-bottom-left-radius: 19px;
+    border-top-left-radius: 19px;
+    
+}
+.rigth{
+    position: relative;
+    left: 50%;
+    bottom:490px;
+    width:400px;
+
+}
+.rigth h1{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.616);    
+}
+.rigth p{
+    font-size: 16px;
+    top: -3px;
+}
+@media (max-width: 915px){
+    .background{
+        position: relative;
+        left:9px;
+        width:85%;
+        height:600px;
+        top: -411px;
+        
+    }
+    .left img{
+        position: relative;
+        width:224px;
+        height:200px;
+        bottom: 69px;
+        left:31%;
+        border-top-right-radius: 19px;
+        border-bottom-left-radius: 0px;
+
+    }
+    .rigth{
+        position: relative;
+        left: 2%;
+        bottom: 65px;
+        width: 100%;
+    }
+    .rigth p{
+        font-size:14px;
+    }
+    .container button{
+        position: relative;
+        left: 45%;
+        top:535px; 
+    }
+
+}

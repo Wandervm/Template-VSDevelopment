@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap');
+
+
+.leftNav{
+    position: relative;
+    left: 50px;
+    border-radius:9px;
+    top: 30px;
+    width: 200px;
+    height:80vh;
+    background:linear-gradient(315deg, #dad7d7 20%, #121224 74%);
+    font-family: 'Hina Mincho';
+
+}
+.leftNav h1{
+    font-family: 'Hina Mincho';
+    text-align: center;
+    padding: 10px;
+}
+
+.leftNav li {
+    position: relative;
+    top: 200px;
+    left: 30px;
+    list-style: none;
+    font-family: 'Hina Mincho';
+}
+
+.leftNav button {
+    position: relative;
+    top: 350px;
+    left: 80px;
+
+}
+
+.boxCad{
+    position: absolute;
+    bottom: 50px;
+    border-radius:3px;
+    left: 20%;
+    height:73%;
+    width: 75%;
+    background:linear-gradient(315deg, #dad7d7 20%, #121224 74%);
+    box-shadow: 3px 9px 30px rgb(10, 10, 10);
+}
+
+.boxCad h2{
+    text-align: center;
+    font-family: 'Hina Mincho';
+}
+
+.listAluno button {
+    background-color:transparent;
+    border-radius: 50%;
+    border-style: none;
+    width: 20px;
+    height:20px;
+}
+.listAluno ul{
+    position: relative;
+    left: 20px;
+    border: 1px solid #fdfdfd;
+    width: 95%;
+
+}
+.listAluno ul li {
+    display: inline;
+    list-style: none;
+    
+    
+}
+.listAluno ul li label{
+    padding-left: 20px;
+    width:200px;
+    font-family: 'Hina Mincho';
+    
+}
+.listAluno img{
+    width:80px;
+    border-radius: 9px;
+    padding:20px;
+}
