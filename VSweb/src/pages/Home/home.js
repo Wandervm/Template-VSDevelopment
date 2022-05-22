@@ -2,6 +2,11 @@ import React from 'react';
 import { Carousel, Image } from 'antd';
 import '../../styles/globalStyle.css';
 import 'antd/dist/antd.css';
+import Box from '../../components/Box';
+import Btn from '../../components/Button';
+import Grid from '../../components/Grid';
+import Mvv from '../../components/Mvv';
+import Gambiarra from '../../components/Gambiarra';
 
 
 
@@ -48,11 +53,39 @@ export default function Home() {
            <div><img src={require('../../img/bg2.jpeg')} /></div>
            <div><img src={require('../../img/fts20.jpeg')} /></div>
            <div><img src={require('../../img/fts27.jpg')} /></div>
-         </Carousel>            
+         </Carousel>                
+         </div>    
+       <Box/>         
+         <div className="atvDev">
+            <p>Confira nossas atividades.</p>
+            <h2>Atividades desenvolvidas</h2><br/>
+            <Grid/>
+            <h2>Quem somos.</h2><br/>
+            <p>A fundado em 2007, o Projeto Visão Social é uma organização sem fins lucrativos que trabalha para levar assistência social à comunidade de Sobradinho (DF) e região. O Projeto é uma organização independente e neutra, por isso sua existência e trabalho efetivo dependem de doações e ações voluntárias da sociedade.</p>
+            <Gambiarra/>
+            <Mvv/>
+            <div>
+               <h2>Galeria</h2>
+            <Image width={200} height={200} src={require('../../img/galehome/comida1.jpg')}/>
+             <Image width={200} height={200} src={require('../../img/galehome/comida2.jpeg')}/> 
+             <Image width={200} height={200} src={require('../../img/galehome/comida4.jpeg')}/> 
+             <Image width={200} height={200} src={require('../../img/galehome/fts2.jpg')}/> 
+             <Image width={200} height={200} src={require('../../img/galehome/fts17.jpeg')}/> 
+             <Image width={200} height={200} src={require('../../img/galehome/fts18.jpg')}/> 
+             <Image width={200} height={200} src={require('../../img/galehome/fts19.jpg')}/> 
+             <Image width={200} height={200} src={require('../../img/galehome/fts23.jpg')}/> 
+             <Image width={200} height={200} src={require('../../img/galehome/fts25.jpg')}/> 
+             <Image width={200} height={200}src={require('../../img/galehome/fts29.jpg')}/> 
+             <Image width={200} height={200} src={require('../../img/galehome/fts30.jpg')}/>
+             <p style={{position:'relative', left:-485,color:333, fontFamily:'Hina Mincho'}}>© Copyright Projeto Visão Social 2022 - All Rights Reserved</p>
+            </div>
          </div>
+           
+       </div> 
 
-         <p style={{position:'relative', top:40, fontFamily:'Hina Mincho'}}>© Copyright Development V Wander Marques 2022. Projeto Visão Social - All Rights Reserved</p>         
-       </div>          
+
+     
+               
    </div>
  );
 }

@@ -37,7 +37,7 @@ export default function Engajar() {
          </div>
          </div>
        </div>
-  <div className="paginaPrincipalD">
+  <div className="paginaPrincipalV">
     <h1>Faça uma doação</h1>
     <div className="ban">
        <img src={require('../../img/banner1.jpeg')}/>
