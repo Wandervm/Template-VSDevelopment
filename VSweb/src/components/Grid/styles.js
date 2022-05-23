@@ -33,4 +33,14 @@ export const Container = styled.div`
      bottom: 15px;
      left:25%;
  }
+ @media(max-width: 900px){
+     position: relative;
+     width: 90%;
+     top: 20px;
+     margin: 0%;
+     margin-bottom: 30px;
+     img{
+        width: 310px;
+     }
+ }
 `;

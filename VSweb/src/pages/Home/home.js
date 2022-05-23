@@ -64,7 +64,7 @@ export default function Home() {
             <p>A fundado em 2007, o Projeto Visão Social é uma organização sem fins lucrativos que trabalha para levar assistência social à comunidade de Sobradinho (DF) e região. O Projeto é uma organização independente e neutra, por isso sua existência e trabalho efetivo dependem de doações e ações voluntárias da sociedade.</p>
             <Gambiarra/>
             <Mvv/>
-            <div>
+            <div className="gale">
                <h2>Galeria</h2>
             <Image width={200} height={200} src={require('../../img/galehome/comida1.jpg')}/>
              <Image width={200} height={200} src={require('../../img/galehome/comida2.jpeg')}/> 

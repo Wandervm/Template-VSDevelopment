@@ -25,6 +25,32 @@
   top: 470px;
   box-shadow: 3px 9px 30px rgb(10, 10, 10)
 }
+.paginaPrincipalD{
+  position:absolute;
+  background:linear-gradient(315deg, #dad7d7 20%, #121224 74%);
+  width:95%;
+  height:99vh;
+  left: 2%; 
+  border-radius:3px;
+  top: 470px;
+  box-shadow: 3px 9px 30px rgb(10, 10, 10)
+}
+.paginaPrincipalC{
+  position:absolute;
+  background:linear-gradient(315deg, #dad7d7 20%, #121224 74%);
+  width:95%;
+  height:78vh;
+  left: 2%; 
+  border-radius:3px;
+  top: 470px;
+  box-shadow: 3px 9px 30px rgb(10, 10, 10)
+}
+.paginaPrincipalD img{
+  border-radius: 9px;
+  position: relative;
+  left: 30%;
+
+}
 .paginaPrincipal img{
   position: relative;
   width: 100%;
@@ -109,6 +135,16 @@
   font-size: 55px;
 }
 .paginaPrincipalV h1{
+  font-family: 'Hina Mincho';
+  text-align: center;
+  font-size: 55px;
+}
+.paginaPrincipalD h1{
+  font-family: 'Hina Mincho';
+  text-align: center;
+  font-size: 55px;
+}
+.paginaPrincipalC h1{
   font-family: 'Hina Mincho';
   text-align: center;
   font-size: 55px;
@@ -217,10 +253,50 @@ a{
     .paginaPrincipal{
      
       bottom: -20px;
-      height:790px;
+      height:917vh;
+    }
+    .paginaPrincipalV{
+     
+      bottom: -20px;
+      height:325vh;
+    }
+    .paginaPrincipalD{
+     
+      bottom: -20px;
+      height:63vh;
+    }
+    .paginaPrincipalC{
+     
+      top: 500px;
+      height:80vh;
+    }
+    .paginaPrincipalA{
+     
+      top: 500px;
+      height:1095vh;
+    }
+    
+    .paginaPrincipalD img{
+      position: relative;
+      left: 20px;
+     width: 90%;
     }
     .slide{
       width: 100%;
+    }
+    .atvDev{
+      position: relative;
+      top:-130px;
+    }
+    .gale{
+      position: relative;
+      top: 70px;
+      margin-left: 35px;
+      background-color: rgba(148, 134, 134, 0.459);
+      height:600px;
+      border-radius: 9px;
+      width: 80%;
+      overflow-y:scroll;
     }
 
 

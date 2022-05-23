@@ -32,7 +32,7 @@ p{
 }
 @media(max-width: 900px) {
     position: relative;
-    left: 30px;
-    top: 50px;
+    left: 6%;
+    top: -190px;
   }
 `;

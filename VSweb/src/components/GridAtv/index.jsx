@@ -1,8 +1,7 @@
 import React from 'react';
 import {  Image } from 'antd';
-import {Container, Cardprof, CardInfo, DescAtv} from './style';
+import {Container,MediaFotos , Cardprof, CardInfo, DescAtv} from './style';
 import card2 from '../../img/card2.png';
-import Btn from '../Button';
 
 
 export default function GridAtv(){
@@ -20,13 +19,15 @@ export default function GridAtv(){
             <DescAtv>
                 <h2>Atendimento Psicologico</h2>
                 <h4>O Projeto Visão Social conta com acompanhamento psicologico às crianças e familiares, tanto individualmente, quanto com a realização de grupos de conversa. Organizamos dinâmicas e oficinas para debate conscientização quanto ao uso de drogas e as diversas formas de violência.</h4>
+                <MediaFotos>
             <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
                       <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
                       <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
                       <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
                       <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
                       <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/> 
-                      <Btn/>
+                      <button>Click</button>
+                      </MediaFotos>
             </DescAtv>           
         </Container>
         <Container>
@@ -42,12 +43,15 @@ export default function GridAtv(){
                 <DescAtv>
                     <h2>Acompanhamento Pedagogico</h2>
                     <h4>Coordena e Realiza atividades de reforço escolar no Projeto Visão Social, principalmente na área de alfabetização para crianças com dificuldade de aprendizagem. A metodologia de ensino utilizadas são aulas expositivas, atividades lúdicas e ensino construtivista.</h4>
-                <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
+                    <MediaFotos>
                           <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
                           <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
                           <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
                           <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
-                          <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/> 
+                          <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
+                          <Image width={100} height={100} src={require('../../img/galehome/comida1.jpg')}/>
+                          <button>Click</button>
+                    </MediaFotos> 
                 </DescAtv>
                
         </Container>
@@ -64,12 +68,15 @@ export default function GridAtv(){
                     <DescAtv>
                         <h2>Inclusão Digital</h2>
                         <h4>O Projeto Visão Social possui um laboratório de informática que é mantido por doações da comunidade, nele as crianças deselvolvem habilidades básicas que consideramos essenciais para a nossa geração.</h4>
+                        <MediaFotos>
                         <Image width={100} height={100} src={require('../../img/ftinformatica/informatica1.jpeg')}/>
                         <Image width={100} height={100} src={require('../../img/ftinformatica/informatica2.jpeg')}/>
                         <Image width={100} height={100} src={require('../../img/ftinformatica/informatica3.jpeg')}/>
                         <Image width={100} height={100} src={require('../../img/ftinformatica/informatica4.jpeg')}/>
                         <Image width={100} height={100} src={require('../../img/ftinformatica/informatica5.jpeg')}/>
                         <Image width={100} height={100} src={require('../../img/ftinformatica/informatica6.jpeg')}/> 
+                        <button>Click</button>
+                        </MediaFotos>
                     </DescAtv>
                    
         </Container>
@@ -86,12 +93,15 @@ export default function GridAtv(){
                         <DescAtv>
                             <h2>Aulas de Musica</h2>
                             <h4>O Projeto Visão Social acredita na musica como instrumento para o desenvolvimento psicomotor e intelectual de nossos alunos, desenvolvemos a oralidade, entonação, afinação e desenvolver o interesse dos alunos pela musica.</h4>
+                            <MediaFotos>
                             <Image width={100} height={100} src={require('../../img/ftmusica/musica (1).jpeg')}/>
-           <Image width={100} height={100} src={require('../../img/ftmusica/musica (2).jpeg')}/>
-           <Image width={100} height={100} src={require('../../img/ftmusica/musica (3).jpeg')}/>
-           <Image width={100} height={100} src={require('../../img/ftmusica/musica (10).jpeg')}/>
-           <Image width={100} height={100} src={require('../../img/ftmusica/musica (5).jpeg')}/>
-           <Image width={100} height={100} src={require('../../img/ftmusica/musica (6).jpeg')}/> 
+                            <Image width={100} height={100} src={require('../../img/ftmusica/musica (2).jpeg')}/>
+                            <Image width={100} height={100} src={require('../../img/ftmusica/musica (3).jpeg')}/>
+                            <Image width={100} height={100} src={require('../../img/ftmusica/musica (10).jpeg')}/>
+                            <Image width={100} height={100} src={require('../../img/ftmusica/musica (5).jpeg')}/>
+                            <Image width={100} height={100} src={require('../../img/ftmusica/musica (6).jpeg')}/> 
+                            <button>Click</button>
+                            </MediaFotos>
                         </DescAtv>
                        
         </Container>
@@ -108,12 +118,15 @@ export default function GridAtv(){
                             <DescAtv>
                                 <h2>Reforço Escolar</h2>
                                 <h4>Realiza atividades de reforço escolar no Projeto Visão Social, principalmente nas áreas de matemática e língua portuguesa para crianças em situação de conflito. A metodologia de ensino utilizadas são aulas expositivas, atividades lúdicas e ensino construtivista.</h4>
+                                <MediaFotos>
                                 <Image width={100} height={100} src={require('../../img/ftsreforco/reforco1.jpeg')}/>
            <Image width={100} height={100} src={require('../../img/ftsreforco/reforco14.jpeg')}/>
            <Image width={100} height={100} src={require('../../img/ftsreforco/reforco3.jpeg')}/>
            <Image width={100} height={100} src={require('../../img/ftsreforco/reforco4.jpeg')}/>
            <Image width={100} height={100} src={require('../../img/ftsreforco/reforco5.jpeg')}/>
            <Image width={100} height={100} src={require('../../img/ftsreforco/reforco6.jpeg')}/> 
+           <button>Click</button>
+           </MediaFotos>
                             </DescAtv>
                            
         </Container>
@@ -130,12 +143,15 @@ export default function GridAtv(){
                                 <DescAtv>
                                     <h2>Aulas de Dança</h2>
                                     <h4>O Projeto Visão Social possui um laboratório de informática que é mantido por doações da comunidade, nele as crianças deselvolvem habilidades básicas que consideramos essenciais para a nossa geração.</h4>
+                                    <MediaFotos>
                                     <Image width={100} height={100} src={require('../../img/ftdanca/danca1.jpeg')}/>
                                     <Image width={100} height={100} src={require('../../img/ftdanca/danca2.jpeg')}/>
                                     <Image width={100} height={100} src={require('../../img/ftdanca/danca3.jpeg')}/>
                                     <Image width={100} height={100} src={require('../../img/ftdanca/danca4.jpeg')}/>
                                     <Image width={100} height={100} src={require('../../img/ftdanca/danca7.jpeg')}/>
                                    <Image width={100} height={100} src={require('../../img/ftdanca/danca6.jpeg')}/>
+                                   <button>Click</button>
+                                   </MediaFotos>
                                 </DescAtv>
                                
         </Container>
@@ -152,12 +168,14 @@ export default function GridAtv(){
                                     <DescAtv>
                                         <h2>Assistencia Social</h2>
                                         <h4>Garante proteção social aos assistidos, apoio a individuos famílias e á comunidade no enfrentamento de suas dificuldades, por meio de serviços, benefícios e programas sociais.</h4>
+                                        <MediaFotos>
                                         <Image width={100} height={100} src={require('../../img/ftassistencia/fts3.jpg')}/>
                                         <Image width={100} height={100} src={require('../../img/ftassistencia/fts12.jpeg')}/>
                                         <Image width={100} height={100} src={require('../../img/ftassistencia/fts16.jpeg')}/>
                                         <Image width={100} height={100} src={require('../../img/ftassistencia/fts20.jpg')}/>
                                         <Image width={100} height={100} src={require('../../img/ftassistencia/fts21.jpg')}/>
                                         <Image width={100} height={100} src={require('../../img/ftassistencia/fts22.jpg')}/>
+                                        </MediaFotos>
                                     </DescAtv>
                                    
         </Container>

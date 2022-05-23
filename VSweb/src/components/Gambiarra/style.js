@@ -9,4 +9,12 @@ export const Container= styled.div`
  img{
      border-radius:19px;
  }
+ @media(max-width: 900px){
+     img{
+         position: relative;
+         right: 25px;
+         width:80%;
+         margin: 0%;
+     }
+ }
 `;

@@ -14,7 +14,11 @@ export const Cardvol = styled.div`
   background-position: center;
   border-top-left-radius: 9px;
   border-top-right-radius: 9px;
-
+  
+  @media(max-width: 900px){
+     position: relative;
+     top: 60px;
+ }
 
 `;
 export const CardInfo = styled.div`
@@ -25,7 +29,6 @@ export const CardInfo = styled.div`
  height: 300px;
  border-bottom-left-radius: 9px;
  border-bottom-right-radius: 9px;
- 
 
  img{
      position: relative;
@@ -55,4 +58,14 @@ export const CardInfo = styled.div`
      font-family: 'Hina Mincho';
      text-align: center;
  }
+ @media(max-width: 900px){
+     img{
+        width:90px;
+        height: 90px;
+     }
+     h2 {
+         margin: 20px;
+     }
+ }
+ 
 `;

@@ -37,11 +37,11 @@ export default function Engajar() {
          </div>
          </div>
        </div>
-  <div className="paginaPrincipalV">
+  <div className="paginaPrincipalD">
     <h1>Faça uma doação</h1>
-    <div className="ban">
+    <div>
        <img src={require('../../img/banner1.jpeg')}/>
-    </div><p style={{position:'relative', top:40, fontFamily:'Hina Mincho'}}>© Copyright Development V Wander Marques 2022. Projeto Visão Social - All Rights Reserved</p>
+    </div>
   </div>
 </div>
  );

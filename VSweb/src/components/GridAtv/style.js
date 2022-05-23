@@ -9,12 +9,18 @@ export const Container= styled.div `
  box-shadow: 0px 3px 15px rgba(202, 197, 197, 0.548);
  border-radius: 9px;
  margin: 30px;
+ @media(max-width: 900px){
+     width:90%;
+     height: 150vh;
+     position:relative;
+     left:-13px;
+ }
 `;
 export const Cardprof = styled.div`
   width:250px;
   position:relative;
-  left:5%;
-  top:15%;
+  left:10%;
+  top:10%;
   height: 100px;
   background-size:cover;
   background-repeat: no-repeat;
@@ -62,6 +68,12 @@ export const CardInfo = styled.div`
      font-family: 'Hina Mincho';
      text-align: center;
  }
+ @media(max-width: 900px){
+     img{
+         width:90px;
+         height: 90px;
+     }
+ }
 `;
 
 export const DescAtv = styled.div`
@@ -72,9 +84,10 @@ export const DescAtv = styled.div`
 
  h2{
      position: relative;
-     bottom:100px;
+     bottom:180px;
+     font-size:35px;
      right: 250px;
-    font-family: 'Hina Mincho';
+     font-family: 'Hina Mincho';
      text-align: center;
  }
  h4{
@@ -85,5 +98,50 @@ export const DescAtv = styled.div`
      font-family: 'Hina Mincho';
      text-align: center;
  }
+ button{
+    font-family: 'Hina Mincho';
+    position: relative;
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    background-color: #f6f8fc;
+    border-radius: 9px;
+    right: 32%;
+    bottom: 145px;
+    box-shadow: 3px 6px 15px rgba(13, 13, 14, 0.774);
+ }
+ button:hover{
+    color: white;
+    background-color: #7676c7;
+    box-shadow: 3px 6px 15px rgb(7, 7, 7);
+    transition: all 0.1s ease-out;
+    }
+    @media(max-width: 900px){
+        h2{
+            position: relative;
+            left: -90px;
+        }
+        h4{
+            width:100%;
+            font-size: 16px;
+            left: -90px;
+            position: relative;
+            top: 240px;
+        }
+        button{
+            position: relative;
+            bottom:420px;
+            left: 30px;
+        }
+
+    }
  
+`;
+export const MediaFotos = styled.div`
+ @media(max-width: 900px){
+     position: relative;
+     left: -60px;
+     top: 400px;
+
+ }
 `;

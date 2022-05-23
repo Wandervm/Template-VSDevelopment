@@ -100,6 +100,7 @@ const Navbar = () => {
                 <i>Contato</i>
               </NavLink>
             </li>
+            
             <li className="nav-item">
               <NavLink className="nav-link" to="/termo" exact>
                 <i>Projetos</i>
